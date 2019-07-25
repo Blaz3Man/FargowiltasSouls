@@ -16,7 +16,7 @@ namespace FargowiltasSouls.Buffs.Masomode
             DisplayName.AddTranslation(GameCulture.Chinese, "昏迷");
             Description.AddTranslation(GameCulture.Chinese, "你头晕目眩,动弹不得");
 			DisplayName.AddTranslation(GameCulture.Russian, "Оглушён");
-            Description.AddTranslation(GameCulture.Russian, "Твоя голова кружится слишком сильно, чтобы двигаться");
+            Description.AddTranslation(GameCulture.Russian, "У вас силшком сильное головокружение, чтобы двигаться");
         }
 
         public override void Update(Player player, ref int buffIndex)

@@ -18,7 +18,7 @@ namespace FargowiltasSouls.Buffs.Masomode
             DisplayName.AddTranslation(GameCulture.Chinese, "感染");
             Description.AddTranslation(GameCulture.Chinese, "这只会变得更糟");
 			DisplayName.AddTranslation(GameCulture.Russian, "Заражён");
-            Description.AddTranslation(GameCulture.Russian, "Будет становиться только хуже");
+            Description.AddTranslation(GameCulture.Russian, "Станет только хуже");
         }
 
         public override void Update(Player player, ref int buffIndex)

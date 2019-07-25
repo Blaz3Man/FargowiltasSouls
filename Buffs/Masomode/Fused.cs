@@ -19,7 +19,7 @@ namespace FargowiltasSouls.Buffs.Masomode
             DisplayName.AddTranslation(GameCulture.Chinese, "导火线");
             Description.AddTranslation(GameCulture.Chinese, "你和爆炸有个约会");
 			DisplayName.AddTranslation(GameCulture.Russian, "Зажжённый фитиль");
-            Description.AddTranslation(GameCulture.Russian, "Походу, ты сейчас рванёшь");
+            Description.AddTranslation(GameCulture.Russian, "Вы сейчас взорвётесь");
         }
 
         public override void Update(Player player, ref int buffIndex)
