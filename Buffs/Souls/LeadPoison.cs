@@ -14,6 +14,7 @@ namespace FargowiltasSouls.Buffs.Souls
             canBeCleared = false;
             Main.debuff[Type] = true;
             DisplayName.AddTranslation(GameCulture.Chinese, "铅中毒");
+			DisplayName.AddTranslation(GameCulture.Russian, "Свинцовый яд");
         }
 
         public override bool Autoload(ref string name, ref string texture)

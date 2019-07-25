@@ -14,6 +14,8 @@ namespace FargowiltasSouls.Buffs.Souls
             canBeCleared = true;
             DisplayName.AddTranslation(GameCulture.Chinese, "不动金身");
             Description.AddTranslation(GameCulture.Chinese, "免疫所有伤害,但无法移动");
+			DisplayName.AddTranslation(GameCulture.Russian, "Золотой стазис");
+            Description.AddTranslation(GameCulture.Russian, "Вы невосприимчивы к любому урону, но не можете двигаться");
         }
 
         public override void Update(Player player, ref int buffIndex)

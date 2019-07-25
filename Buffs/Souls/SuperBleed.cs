@@ -14,6 +14,8 @@ namespace FargowiltasSouls.Buffs.Souls
             Main.buffNoSave[Type] = true;
             DisplayName.AddTranslation(GameCulture.Chinese, "大出血");
             Description.AddTranslation(GameCulture.Chinese, "出于自卫而喷发出的血");
+			DisplayName.AddTranslation(GameCulture.Russian, "Супер-кровотечение");
+            Description.AddTranslation(GameCulture.Russian, "Вы плюётесь кровью для самозащиты");
         }
 
         public override bool Autoload(ref string name, ref string texture)

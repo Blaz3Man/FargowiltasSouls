@@ -13,6 +13,8 @@ namespace FargowiltasSouls.Buffs.Souls
             Main.buffNoSave[Type] = true;
             DisplayName.AddTranslation(GameCulture.Chinese, "先发制人");
             Description.AddTranslation(GameCulture.Chinese, "你的下一次攻击将会得到增强");
+			DisplayName.AddTranslation(GameCulture.Russian, "Первый удар");
+            Description.AddTranslation(GameCulture.Russian, "Ваша следующая атака будет усилена");
         }
 
         public override void Update(Player player, ref int buffIndex)

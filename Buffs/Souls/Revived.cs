@@ -15,6 +15,8 @@ namespace FargowiltasSouls.Buffs.Souls
             Main.debuff[Type] = true;
             DisplayName.AddTranslation(GameCulture.Chinese, "已复活");
             Description.AddTranslation(GameCulture.Chinese, "最近经历过复活");
+			DisplayName.AddTranslation(GameCulture.Russian, "Возрождён");
+            Description.AddTranslation(GameCulture.Russian, "Вы недавно возродились");
         }
     }
 }

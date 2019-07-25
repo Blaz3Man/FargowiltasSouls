@@ -15,6 +15,8 @@ namespace FargowiltasSouls.Buffs.Souls
 			Main.debuff[Type] = true;
             DisplayName.AddTranslation(GameCulture.Chinese, "无尽诅咒");
             Description.AddTranslation(GameCulture.Chinese, "所有物品均不消耗,但有时会对自己造成伤害");
+			DisplayName.AddTranslation(GameCulture.Russian, "Проклятие Бесконечности");
+            Description.AddTranslation(GameCulture.Russian, "Вы ничего не тратите, но иногда наносите себе урон");
 		}
 
         public override void Update(Player player, ref int buffIndex)
