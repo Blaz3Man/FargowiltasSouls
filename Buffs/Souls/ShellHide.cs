@@ -18,8 +18,8 @@ namespace FargowiltasSouls.Buffs.Souls
             Main.debuff[Type] = true;
             DisplayName.AddTranslation(GameCulture.Chinese, "缩壳");
             Description.AddTranslation(GameCulture.Chinese, "阻挡抛射物,但受到双倍接触伤害");
-			DisplayName.AddTranslation(GameCulture.Russian, "");
-            Description.AddTranslation(GameCulture.Russian, "Вы блокируете снаряды, но получаете двойной контактный уорн");
+			DisplayName.AddTranslation(GameCulture.Russian, "Панцирь");
+            Description.AddTranslation(GameCulture.Russian, "Вы блокируете снаряды, но получаете двойной контактный урон");
         }
 
         public override void Update(Player player, ref int buffIndex)

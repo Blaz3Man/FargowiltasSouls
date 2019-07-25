@@ -24,6 +24,12 @@ Minor improvements to all stats
 小幅提升所有属性
 1分钟持续时间
 (失落军团掉落)");
+			DisplayName.AddTranslation(GameCulture.Russian, "Обычная морковка");
+			Tooltip.AddTranslation(GameCulture.Russian, 
+@"'Вырвана изо рта поверженного врага'
+Усиляет ночное зрение
+Небольшое усиление всех характеристик
+1 минута длительности"); 
 		}
 
 		public override void SetDefaults()

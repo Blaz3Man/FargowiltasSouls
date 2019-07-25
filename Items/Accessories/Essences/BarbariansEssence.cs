@@ -23,6 +23,12 @@ namespace FargowiltasSouls.Items.Accessories.Essences
 增加18%近战伤害
 增加10%近战速度
 增加5%近战暴击率");
+			DisplayName.AddTranslation(GameCulture.Russian, "Эссенция варвара");
+            Tooltip.AddTranslation(GameCulture.Russian, 
+@"'Это только начало...'
++18% к ближнему урону
++10% к скорости ближнего боя
++5% к шансу ближнего крита");
         }
 
         public override void SetDefaults()

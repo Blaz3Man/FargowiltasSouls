@@ -15,6 +15,8 @@ namespace FargowiltasSouls.Buffs
             Main.buffNoSave[Type] = true;
             DisplayName.AddTranslation(GameCulture.Chinese, "拜月教徒");
             Description.AddTranslation(GameCulture.Chinese, "拜月教徒将会保护你");
+			DisplayName.AddTranslation(GameCulture.Russian, "Лунный Культист");
+            Description.AddTranslation(GameCulture.Russian, "Лунный Культист будет защищать вас");
         }
 
         public override void Update(Player player, ref int buffIndex)

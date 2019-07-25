@@ -15,6 +15,7 @@ namespace FargowiltasSouls.NPCs
         {
             DisplayName.SetDefault("Baby Guardian");
             DisplayName.AddTranslation(GameCulture.Chinese, "守卫者宝宝");
+			DisplayName.AddTranslation(GameCulture.Russian, "Малыш-страж");
         }
 
         public override void SetDefaults()

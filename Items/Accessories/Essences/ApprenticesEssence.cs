@@ -23,6 +23,12 @@ Increases your maximum mana by 50");
 增加18%魔法伤害
 增加5%魔法暴击率
 增加50最大法力值");
+            DisplayName.AddTranslation(GameCulture.Russian, "Эссенция ученика");
+            Tooltip.AddTranslation(GameCulture.Russian, 
+@"'Это только начало...'
++18% к магическому урону
++5% к шансу магического крита
+Увеличивает максимальный запас маны на 50");
         }
 
         public override void SetDefaults()

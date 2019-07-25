@@ -37,6 +37,7 @@ namespace FargowiltasSouls.Items.Misc
             animationFrameHeight = 54;
             
             name.AddTranslation(GameCulture.Chinese, "宇宙坩埚");
+			name.AddTranslation(GameCulture.Russian, "Тигель космоса");
         }
 
         public override void NumDust(int i, int j, bool fail, ref int num)

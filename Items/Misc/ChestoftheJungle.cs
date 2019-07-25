@@ -18,6 +18,8 @@ namespace FargowiltasSouls.Items.Misc
             Tooltip.SetDefault(@"'Charged with the essence of many souls'");
             DisplayName.AddTranslation(GameCulture.Chinese, "丛林之箱");
             Tooltip.AddTranslation(GameCulture.Chinese, @"'充满了许多灵魂精华'");
+			DisplayName.AddTranslation(GameCulture.Russian, "Сундук Джунглей");
+			Tooltip.AddTranslation(GameCulture.Russian, @"'Заряжён эссенцией множества душ'");
 		}
 
 		public override void SetDefaults()

@@ -19,6 +19,10 @@ Summons 4 segments for each minion slot");
             Tooltip.AddTranslation(GameCulture.Chinese, 
 @"一个被迫屈服的老对手..
 每个召唤栏召唤4段身体");
+			DisplayName.AddTranslation(GameCulture.Russian, "Посох Пожирателя миров");
+            Tooltip.AddTranslation(GameCulture.Russian, 
+@"Прежний враг, избитый и порабощённый..
+Призывает 4 сегмента за каждый слот для прислужников");
         }
 
         public override void SetDefaults()

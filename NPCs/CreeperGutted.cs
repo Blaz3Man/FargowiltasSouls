@@ -15,6 +15,7 @@ namespace FargowiltasSouls.NPCs
         {
             DisplayName.SetDefault("Creeper");
             DisplayName.AddTranslation(GameCulture.Chinese, "爬行者");
+			DisplayName.AddTranslation(GameCulture.Russian, "Ползун");
         }
 
         public override void SetDefaults()

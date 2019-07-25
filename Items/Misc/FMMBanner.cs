@@ -27,6 +27,7 @@ namespace FargowiltasSouls.Items.Misc
             AddMapEntry(new Color(13, 88, 130), name);
             
             name.AddTranslation(GameCulture.Chinese, "旗帜");
+			name.AddTranslation(GameCulture.Russian, "Знамя");
         }
 
         public override void KillMultiTile(int i, int j, int frameX, int frameY)

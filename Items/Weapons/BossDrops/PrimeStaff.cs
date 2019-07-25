@@ -12,6 +12,8 @@ namespace FargowiltasSouls.Items.Weapons.BossDrops
             Tooltip.SetDefault("'An old foe's limbs reanimated for your desires..'");
             DisplayName.AddTranslation(GameCulture.Chinese, "至尊法杖");
             Tooltip.AddTranslation(GameCulture.Chinese, "'一个老对手的肢体,随你的意愿而复活..'");
+			DisplayName.AddTranslation(GameCulture.Russian, "Посох Прайма");
+            Tooltip.AddTranslation(GameCulture.Russian, "'Конечности прежнего врага вновь ожили ради ваших желаний..'");
         }
 
         public override bool Autoload(ref string name)

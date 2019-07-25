@@ -13,6 +13,8 @@ namespace FargowiltasSouls.Items.Weapons.BossDrops
             Tooltip.SetDefault("'The carcass of a defeated foe shoved violently on a stick..'");
             DisplayName.AddTranslation(GameCulture.Chinese, "鱼杖");
             Tooltip.AddTranslation(GameCulture.Chinese, "'一个被打败的敌人的尸体,用棍子粗暴地串起来..'");
+			DisplayName.AddTranslation(GameCulture.Russian, "Рыбная палка");
+            Tooltip.AddTranslation(GameCulture.Russian, "'Труп поверженного врага, жестоко насаженный на палку..'");
         }
 
         public override void SetDefaults()

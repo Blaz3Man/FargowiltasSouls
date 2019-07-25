@@ -13,6 +13,8 @@ namespace FargowiltasSouls.Items.Weapons
             Tooltip.SetDefault("'Who knew this squirrel had phenomenal cosmic power?'");
             DisplayName.AddTranslation(GameCulture.Chinese, "高顶礼帽松鼠");
             Tooltip.AddTranslation(GameCulture.Chinese, "'谁能知道,这只松鼠竟然有着非凡的宇宙力量呢?'");
+			DisplayName.AddTranslation(GameCulture.Russian, "Белка в шляпе");
+            Tooltip.AddTranslation(GameCulture.Russian, "'Но кто знал, что эта белка содержит в себе феноменальную космическую мощь?");
         }
 
         public override void SetDefaults()

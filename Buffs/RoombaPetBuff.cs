@@ -15,6 +15,8 @@ namespace FargowiltasSouls.Buffs
             Main.vanityPet[Type] = true;
             DisplayName.AddTranslation(GameCulture.Chinese, "扫地机器人");
             Description.AddTranslation(GameCulture.Chinese, "这个扫地机器人在跟着你");
+			DisplayName.AddTranslation(GameCulture.Russian, "Румба");
+            Description.AddTranslation(GameCulture.Russian, "Румба следует за вами");
         }
 
         public override void Update(Player player, ref int buffIndex)

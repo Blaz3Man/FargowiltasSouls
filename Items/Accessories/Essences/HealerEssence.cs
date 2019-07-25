@@ -13,7 +13,7 @@ namespace FargowiltasSouls.Items.Accessories.Essences
 
         public override bool Autoload(ref string name)
         {
-            return ModLoader.GetMod("ThoriumMod") != null;
+             return ModLoader.GetMod("ThoriumMod") != null;
         }
 
         public override string Texture => "FargowiltasSouls/Items/Placeholder";
@@ -32,6 +32,12 @@ namespace FargowiltasSouls.Items.Accessories.Essences
 增加18%光辉伤害
 增加5%治疗和光辉施法速度
 增加5%光辉暴击率");
+			DisplayName.AddTranslation(GameCulture.Russian, "Эссенция крестоносца");
+            Tooltip.AddTranslation(GameCulture.Russian, 
+@"'Это только начало...'
++18% к праведному урону
++5% к лечению и скорости праведной атаки
++5% к шансу праведного крита");
         }
 
         public override void SetDefaults()

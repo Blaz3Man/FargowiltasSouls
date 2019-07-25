@@ -13,6 +13,8 @@ namespace FargowiltasSouls.Items.Misc
             Tooltip.SetDefault("Used to craft Gold Critters");
             DisplayName.AddTranslation(GameCulture.Chinese, "黄金浸渍缸");
             Tooltip.AddTranslation(GameCulture.Chinese, "用来制作黄金动物");
+			DisplayName.AddTranslation(GameCulture.Russian, "Золотой чан для макания");
+			Tooltip.AddTranslation(GameCulture.Russian, "Используется для крафта золотых криттеров"); 
         }
 
         public override void SetDefaults()

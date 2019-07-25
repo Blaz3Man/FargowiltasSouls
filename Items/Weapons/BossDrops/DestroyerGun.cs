@@ -20,12 +20,14 @@ namespace FargowiltasSouls.Items.Weapons.BossDrops
             Tooltip.SetDefault("'An old foe beaten into submission..'");
             DisplayName.AddTranslation(GameCulture.Chinese, "毁灭者之枪");
             Tooltip.AddTranslation(GameCulture.Chinese, "'一个被迫屈服的老对手..'");
+			DisplayName.AddTranslation(GameCulture.Russian, "Пушка Уничтожителя");
+            Tooltip.AddTranslation(GameCulture.Russian, "Прежний враг, избитый и порабощённый");
         }
 
         public override void SetDefaults()
         {
             item.damage = 45;
-            item.mana = 10;
+			item.mana = 10;
             item.summon = true;
             item.width = 24;
             item.height = 24;

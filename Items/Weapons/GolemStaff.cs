@@ -21,6 +21,8 @@ namespace FargowiltasSouls.Items.Weapons
 			Tooltip.SetDefault("'An old foe beaten into submission..'");
             DisplayName.AddTranslation(GameCulture.Chinese, "石巨人之颅");
             Tooltip.AddTranslation(GameCulture.Chinese, "'一个被迫屈服的老对手..'");
+			DisplayName.AddTranslation(GameCulture.Russian, "Голова Голема");
+            Tooltip.AddTranslation(GameCulture.Russian, "'Старый враг, избитый и покорённый..'");
 		}
 		public override void SetDefaults()
 		{

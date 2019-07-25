@@ -16,6 +16,7 @@ namespace FargowiltasSouls.Items.Misc
 		{
 			DisplayName.SetDefault("Bloodied Skull");
             DisplayName.AddTranslation(GameCulture.Chinese, "血迹斑斑的头骨");
+			DisplayName.AddTranslation(GameCulture.Russian, "Окровавленный череп");
 		}
 
 		public override void SetDefaults()

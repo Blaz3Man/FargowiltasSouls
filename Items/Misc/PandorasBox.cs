@@ -15,6 +15,9 @@ namespace FargowiltasSouls.Items.Misc
             DisplayName.AddTranslation(GameCulture.Chinese, "潘多拉之盒");
             Tooltip.AddTranslation(GameCulture.Chinese, "随机召唤\n" +
                                                         "白天时使用是个更友好的选择");
+			DisplayName.AddTranslation(GameCulture.Russian, "Ящик Пандоры");
+			Tooltip.AddTranslation(GameCulture.Russian, "Призывает что-то случайное\n" +
+														"Более дружелюбные варианты днём"); 
         }
 
         public override void SetDefaults()

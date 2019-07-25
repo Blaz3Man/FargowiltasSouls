@@ -13,6 +13,8 @@ namespace FargowiltasSouls.Items.Misc
             Tooltip.SetDefault("Destroys the Universe");
             DisplayName.AddTranslation(GameCulture.Chinese, "宇宙坍缩");
             Tooltip.AddTranslation(GameCulture.Chinese, "毁灭宇宙");
+			DisplayName.AddTranslation(GameCulture.Russian, "Вселенский коллапс");
+			Tooltip.AddTranslation(GameCulture.Russian, "Уничтожает Вселенную"); 
         }
 
         public override void SetDefaults()

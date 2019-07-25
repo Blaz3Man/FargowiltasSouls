@@ -16,6 +16,8 @@ namespace FargowiltasSouls.Items.Weapons
                 "'A glimpse to the other side' \nConverts all arrows to void arrows \n40% chance to not consume ammo");
             DisplayName.AddTranslation(GameCulture.Chinese, "虚空弓");
             Tooltip.AddTranslation(GameCulture.Chinese, "'另一侧的一瞥' \n所有箭支转化为虚空箭 \n40%概率不消耗弹药");
+			DisplayName.AddTranslation(GameCulture.Russian, "Пустотный лук");
+            Tooltip.AddTranslation(GameCulture.Russian, "'Взгляд по ту сторону' \nПревращает все стрелы в пустотные \n40% шанс не потратить боеприпасы");
         }
 
         public override void SetDefaults()

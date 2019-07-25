@@ -20,6 +20,11 @@ Every few attacks damage you slightly");
             Tooltip.AddTranslation(GameCulture.Chinese, @"'这真的值得吗'
 不消耗弹药,魔力和消耗品
 每几次攻击都会对你造成轻微的伤害");
+            DisplayName.AddTranslation(GameCulture.Russian, "Реликвия бесконечности");
+            Tooltip.AddTranslation(GameCulture.Russian, 
+@"'Но стоило ли это того?'
+Вы не тратите аммуницию, ману и используемые предметы
+Каждые несколько атак вы получаете немного урона");
         }
 
         public override void SetDefaults()

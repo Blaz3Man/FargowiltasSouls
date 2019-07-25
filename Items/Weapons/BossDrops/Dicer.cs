@@ -13,6 +13,8 @@ namespace FargowiltasSouls.Items.Weapons.BossDrops
             Tooltip.SetDefault("'A defeated foe's attack now on a string'");
             DisplayName.AddTranslation(GameCulture.Chinese, "切肉器");
             Tooltip.AddTranslation(GameCulture.Chinese, "'一个被击败的敌人的攻击,用线拴着'");
+			DisplayName.AddTranslation(GameCulture.Russian, "Нарезатель");
+            Tooltip.AddTranslation(GameCulture.Russian, "'Атака поверженного врага теперь на нитке'");
 
             ItemID.Sets.Yoyo[item.type] = true;
         }

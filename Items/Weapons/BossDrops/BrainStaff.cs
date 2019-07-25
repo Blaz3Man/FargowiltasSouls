@@ -13,6 +13,8 @@ namespace FargowiltasSouls.Items.Weapons.BossDrops
             Tooltip.SetDefault("'An old foe beaten into submission..'\n Needs 2 minion slots");
             DisplayName.AddTranslation(GameCulture.Chinese, "精神崩坏");
             Tooltip.AddTranslation(GameCulture.Chinese, "'一个被迫屈服的老对手..'\n需要2个召唤栏");
+			DisplayName.AddTranslation(GameCulture.Russian, "");
+            Tooltip.AddTranslation(GameCulture.Russian, "'Прежний враг, избитый и порабощённый..'\n Требует 2 слота для прислужников");
         }
 
         public override void SetDefaults()

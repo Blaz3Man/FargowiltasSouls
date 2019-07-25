@@ -19,6 +19,10 @@ Only usable after Demon Heart");
             Tooltip.AddTranslation(GameCulture.Chinese, 
 @"永久增加饰品栏
 只能在使用恶魔之心之后使用");
+			DisplayName.AddTranslation(GameCulture.Russian, "Звёздная печать");
+			Tooltip.AddTranslation(GameCulture.Russian, 
+@"Перманентно увеличивает число слотов аксессуаров
+Можно использовать только после Сердца демона");
 		}
 
 		public override void SetDefaults()

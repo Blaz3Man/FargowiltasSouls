@@ -21,6 +21,8 @@ namespace FargowiltasSouls.Items.Weapons
 			Tooltip.SetDefault("ye \n and thus fargo never added a proper description for this item");
             DisplayName.AddTranslation(GameCulture.Chinese, "双刃光剑");
             Tooltip.AddTranslation(GameCulture.Chinese, "");
+			DisplayName.AddTranslation(GameCulture.Russian, "Двойная сабля");
+            Tooltip.AddTranslation(GameCulture.Russian, "ага \n фарго добавь описание по-братски");
 		}
 		
         public override void SetDefaults()

@@ -15,6 +15,8 @@ namespace FargowiltasSouls.Buffs
             Main.buffNoSave[Type] = true;
             DisplayName.AddTranslation(GameCulture.Chinese, "世纪之花的孩子");
             Description.AddTranslation(GameCulture.Chinese, "世纪之花的孩子将会保护你");
+			DisplayName.AddTranslation(GameCulture.Russian, "Дитя Плантеры");
+            Description.AddTranslation(GameCulture.Russian, "Дитя Плантеры будет защищать вас");
         }
 
         public override void Update(Player player, ref int buffIndex)

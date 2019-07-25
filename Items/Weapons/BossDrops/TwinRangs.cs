@@ -16,6 +16,8 @@ namespace FargowiltasSouls.Items.Weapons.BossDrops
             Tooltip.SetDefault("The compressed forms of defeated foes..");
             DisplayName.AddTranslation(GameCulture.Chinese, "双子");
             Tooltip.AddTranslation(GameCulture.Chinese, "被打败的敌人的压缩形态..");
+			DisplayName.AddTranslation(GameCulture.Russian, "Близнецы");
+            Tooltip.AddTranslation(GameCulture.Russian, "Сжатые формы поверженных врагов..");
         }
 
         public override void SetDefaults()

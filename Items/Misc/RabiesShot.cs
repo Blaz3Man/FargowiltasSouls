@@ -18,6 +18,8 @@ namespace FargowiltasSouls.Items.Misc
             Tooltip.SetDefault("Cures Feral Bite");
             DisplayName.AddTranslation(GameCulture.Chinese, "狂犬疫苗");
             Tooltip.AddTranslation(GameCulture.Chinese, "治愈野性咬噬");
+			DisplayName.AddTranslation(GameCulture.Russian, "Укол от бешенства");
+			Tooltip.AddTranslation(GameCulture.Russian, "Излечивает Звериный укус"); 
 		}
 
 		public override void SetDefaults()

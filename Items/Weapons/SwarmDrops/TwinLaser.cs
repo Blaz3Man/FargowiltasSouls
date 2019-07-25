@@ -19,6 +19,8 @@ namespace FargowiltasSouls.Items.Weapons.SwarmDrops
             Tooltip.SetDefault("");
             DisplayName.AddTranslation(GameCulture.Chinese, "双子机炮");
             Tooltip.AddTranslation(GameCulture.Chinese, "");
+			DisplayName.AddTranslation(GameCulture.Russian, "Пушка близнецов");
+            Tooltip.AddTranslation(GameCulture.Russian, "");
         }
 
         public override void SetDefaults()

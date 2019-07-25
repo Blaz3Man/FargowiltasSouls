@@ -12,6 +12,7 @@ namespace FargowiltasSouls.NPCs
             DisplayName.SetDefault("Fez Squirrel");
             Main.npcFrameCount[npc.type] = 6;
             DisplayName.AddTranslation(GameCulture.Chinese, "土耳其毡帽松鼠");
+			DisplayName.AddTranslation(GameCulture.Russian, "Белка в феске");
         }
 
         public override bool Autoload(ref string name)

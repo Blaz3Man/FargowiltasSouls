@@ -17,6 +17,8 @@ namespace FargowiltasSouls.Items.Misc
             Tooltip.SetDefault("Only usable in Masochist Mode\nThe tides surge in its presence");
             DisplayName.AddTranslation(GameCulture.Chinese, "松露虫 EX");
             Tooltip.AddTranslation(GameCulture.Chinese, "只能在受虐模式使用\n它出现时潮水汹涌澎湃");
+			DisplayName.AddTranslation(GameCulture.Russian, "Трюфельный червь EX");
+			Tooltip.AddTranslation(GameCulture.Russian, "Можно использовать только в Режиме Мазохиста\n Волны будоражатся в его присутствии"); 
         }
 
         public override void SetDefaults()

@@ -28,6 +28,7 @@ namespace FargowiltasSouls.Items.Misc
             name.SetDefault("Golden Dipping Vat");
             AddMapEntry(new Color(255, 215, 0), name);
             name.AddTranslation(GameCulture.Chinese, "黄金浸渍缸");
+			name.AddTranslation(GameCulture.Russian, "Золотой чан для макания");
         }
 
         public override void KillMultiTile(int i, int j, int frameX, int frameY)

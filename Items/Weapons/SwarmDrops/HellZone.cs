@@ -14,6 +14,8 @@ namespace FargowiltasSouls.Items.Weapons.SwarmDrops
             Tooltip.SetDefault("'The reward for slaughtering many..'");
             DisplayName.AddTranslation(GameCulture.Chinese, "地狱领域");
             Tooltip.AddTranslation(GameCulture.Chinese, "'屠戮众多的奖励..'");
+			DisplayName.AddTranslation(GameCulture.Russian, "Адская зона");
+            Tooltip.AddTranslation(GameCulture.Russian, "'Награда за убийство многих..'");
         }
 
         public override void SetDefaults()

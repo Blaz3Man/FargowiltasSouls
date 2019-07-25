@@ -13,7 +13,7 @@ namespace FargowiltasSouls.Items.Accessories.Essences
         
         public override bool Autoload(ref string name)
         {
-            return ModLoader.GetMod("ThoriumMod") != null;
+             return ModLoader.GetMod("ThoriumMod") != null;
         }
         
         public override string Texture => "FargowiltasSouls/Items/Placeholder";
@@ -32,6 +32,12 @@ namespace FargowiltasSouls.Items.Accessories.Essences
 增加18%音波伤害
 增加5%音波演奏速度
 增加5%音波暴击率");
+			DisplayName.AddTranslation(GameCulture.Russian, "Эссенция музыканта");
+            Tooltip.AddTranslation(GameCulture.Russian, 
+@"'Это только начало...'
++18% к музыкальному урону
++5% к скорости игры на муз. инструментах
++5% к шансу музыкального крита");
         }
 
         public override void SetDefaults()

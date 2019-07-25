@@ -14,6 +14,7 @@ namespace FargowiltasSouls.Items.Misc
 		{
 			DisplayName.SetDefault("Volatile Energy");
             DisplayName.AddTranslation(GameCulture.Chinese, "不稳定能量");
+			DisplayName.AddTranslation(GameCulture.Russian, "Нестабильная энергия");
 		}
 
 		public override void SetDefaults()

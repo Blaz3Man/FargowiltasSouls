@@ -20,6 +20,10 @@ Grants immunity to almost all Masochist Mode debuffs");
             Tooltip.AddTranslation(GameCulture.Chinese, 
 @"'受苦的证明'
 免疫几乎所有受虐模式的Debuff");
+			DisplayName.AddTranslation(GameCulture.Russian, "Садизм");
+			Tooltip.AddTranslation(GameCulture.Russian, 
+@"'Свидетельство о перенесённых страданиях'
+Даёт иммунитет почти ко всем дебаффам Режима Мазохиста"); 
         }
 
 		public override void SetDefaults()

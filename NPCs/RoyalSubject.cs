@@ -16,6 +16,7 @@ namespace FargowiltasSouls.NPCs
             DisplayName.SetDefault("Royal Subject");
             Main.npcFrameCount[npc.type] = Main.npcFrameCount[NPCID.QueenBee];
             DisplayName.AddTranslation(GameCulture.Chinese, "皇家工蜂");
+			DisplayName.AddTranslation(GameCulture.Russian, "Королевский подданный");
         }
 
         public override void SetDefaults()

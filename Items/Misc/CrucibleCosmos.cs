@@ -12,6 +12,8 @@ namespace FargowiltasSouls.Items.Misc
             Tooltip.SetDefault("'It seems to be hiding magnificent power'\nFunctions as nearly every crafting station");
             DisplayName.AddTranslation(GameCulture.Chinese, "宇宙坩埚");
             Tooltip.AddTranslation(GameCulture.Chinese, "'它似乎隐藏着巨大的力量'\n包含几乎所有制作环境");
+			DisplayName.AddTranslation(GameCulture.Russian, "Тигель Космоса");
+			Tooltip.AddTranslation(GameCulture.Russian, "'Похоже, что он содержит невероятную мощь'\nРаботает как почти любая станция для крафта"); 
         }
 
         public override void SetDefaults()

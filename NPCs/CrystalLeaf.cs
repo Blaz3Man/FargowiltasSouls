@@ -15,6 +15,7 @@ namespace FargowiltasSouls.NPCs
         {
             DisplayName.SetDefault("Crystal Leaf");
             DisplayName.AddTranslation(GameCulture.Chinese, "叶绿水晶");
+			DisplayName.AddTranslation(GameCulture.Russian, "Кристалльный лист");
         }
 
         public override void SetDefaults()

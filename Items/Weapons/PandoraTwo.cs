@@ -19,6 +19,8 @@ namespace FargowiltasSouls.Items.Weapons
             Tooltip.SetDefault("A true mess of projectiles");
             DisplayName.AddTranslation(GameCulture.Chinese, "潘多拉之书");
             Tooltip.AddTranslation(GameCulture.Chinese, "一大堆抛射物");
+			DisplayName.AddTranslation(GameCulture.Russian, "Том Пандоры");
+            Tooltip.AddTranslation(GameCulture.Russian, "Истинное месиво из снарядов");
         }
 
         public override void SetDefaults()

@@ -15,6 +15,9 @@ namespace FargowiltasSouls.Items.Misc
             DisplayName.AddTranslation(GameCulture.Chinese, "银河重构器");
             Tooltip.AddTranslation(GameCulture.Chinese, "破坏一片难以置信的巨大区域\n" +
                                                         "风险自负");
+			DisplayName.AddTranslation(GameCulture.Russian, "Галактический реформатор");
+			Tooltip.AddTranslation(GameCulture.Russian, "Разрушает невероятно большую область\n" +
+														"Используйте на свой страх и риск"); 
         }
 
         public override void SetDefaults()

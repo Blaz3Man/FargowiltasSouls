@@ -22,7 +22,13 @@ Increases your max number of sentries by 1");
 @"'这才刚刚开始..'
 增加18%召唤伤害
 +1最大召唤栏
-+1最大哨兵栏");
++1最大哨兵栏"); 
+			DisplayName.AddTranslation(GameCulture.Russian, "Эссенция оккультиста");
+            Tooltip.AddTranslation(GameCulture.Russian, 
+@"'Это только начало...'
++18% к урону призывателя
+Увеличивает максимальное число призванных существ на 1
+Увеличивает максимальное число турелей на 1");
         }
 
         public override void SetDefaults()

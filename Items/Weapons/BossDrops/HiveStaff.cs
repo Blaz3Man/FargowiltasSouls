@@ -14,6 +14,8 @@ namespace FargowiltasSouls.Items.Weapons.BossDrops
             Tooltip.SetDefault("'The enslaved minions of a defeated foe..'");
             DisplayName.AddTranslation(GameCulture.Chinese, "蜂巢法杖");
             Tooltip.AddTranslation(GameCulture.Chinese, "'战败敌人的仆从..'");
+			DisplayName.AddTranslation(GameCulture.Russian, "Посох улья");
+            Tooltip.AddTranslation(GameCulture.Russian, "'Порабощённые прислужники поверженного врага..'");
         }
 
         public override void SetDefaults()

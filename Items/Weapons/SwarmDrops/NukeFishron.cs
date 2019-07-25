@@ -16,6 +16,8 @@ namespace FargowiltasSouls.Items.Weapons.SwarmDrops
             Tooltip.SetDefault("'The highly weaponized remains of a defeated foe...'");
             DisplayName.AddTranslation(GameCulture.Chinese, "核子猪鲨");
             Tooltip.AddTranslation(GameCulture.Chinese, "'高度武器化的遗骸...'");
+			DisplayName.AddTranslation(GameCulture.Russian, "Ядерный Рыброн");
+            Tooltip.AddTranslation(GameCulture.Russian, "'Высоковооружённые останки поверженного врага...'");
         }
 
         public override void SetDefaults()

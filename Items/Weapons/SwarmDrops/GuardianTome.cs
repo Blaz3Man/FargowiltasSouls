@@ -15,6 +15,8 @@ namespace FargowiltasSouls.Items.Weapons.SwarmDrops
             Tooltip.SetDefault("'It's their turn to run'");
             DisplayName.AddTranslation(GameCulture.Chinese, "守卫者");
             Tooltip.AddTranslation(GameCulture.Chinese, "现在轮到他们跑了");
+			DisplayName.AddTranslation(GameCulture.Russian, "Страж");
+            Tooltip.AddTranslation(GameCulture.Russian, "'Настал их черёд бежать'");
         }
 
         public override void SetDefaults()

@@ -19,6 +19,8 @@ namespace FargowiltasSouls.Items.Weapons.BossDrops
             Tooltip.SetDefault("");
             DisplayName.AddTranslation(GameCulture.Chinese, "邪教徒的魔法书");
             Tooltip.AddTranslation(GameCulture.Chinese, "");
+			DisplayName.AddTranslation(GameCulture.Russian, "Книга заклинаний Культиста");
+            Tooltip.AddTranslation(GameCulture.Russian, "");
         }
 
         public override void SetDefaults()

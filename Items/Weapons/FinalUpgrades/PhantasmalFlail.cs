@@ -18,6 +18,8 @@ namespace FargowiltasSouls.Items.Weapons.FinalUpgrades
             Tooltip.SetDefault("''");
             DisplayName.AddTranslation(GameCulture.Chinese, "幻影克苏鲁连枷");
             Tooltip.AddTranslation(GameCulture.Chinese, "''");
+			DisplayName.AddTranslation(GameCulture.Russian, "Призрачный цеп Ктулху");
+            Tooltip.AddTranslation(GameCulture.Russian, "''");
         }
 
         public override void SetDefaults()

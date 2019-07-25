@@ -27,16 +27,24 @@ namespace FargowiltasSouls.Items.Accessories.Essences
 增加18%投掷伤害
 增加5%投掷暴击率
 增加5%投掷物速度";
+			string tooltip_ru =
+@"'Это только начало...'
++18% к метательному урону
++5% к шансу метательного крита
++5% к ускорению метательного оружия";
 
             if (calamity != null)
             {
                 tooltip += "\nBonuses also effect rogue damage";
                 tooltip_ch += "\n加成同样影响盗贼伤害";
+				tooltip_ru += "\nБонусы также влияют на урон разбойника";
             }
 
             Tooltip.SetDefault(tooltip);
             DisplayName.AddTranslation(GameCulture.Chinese, "投手精华");
             Tooltip.AddTranslation(GameCulture.Chinese, tooltip_ch);
+			DisplayName.AddTranslation(GameCulture.Russian, "Эссенция метателя");
+            Tooltip.AddTranslation(GameCulture.Russian, tooltip_ru);
         }
 
         public override void SetDefaults()

@@ -23,6 +23,12 @@ namespace FargowiltasSouls.Items.Accessories.Essences
 增加18%远程伤害
 增加5%远程暴击率
 增加5%开火速度");
+            DisplayName.AddTranslation(GameCulture.Russian, "Эссенция снайпера");
+            Tooltip.AddTranslation(GameCulture.Russian, 
+@"'Это только начало...'
++18% к дальнему урону
++5% к шансу дальнего крита
++5% к скорости дальнего боя");
         }
 
         public override void SetDefaults()
