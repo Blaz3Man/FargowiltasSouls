@@ -15,6 +15,8 @@ namespace FargowiltasSouls.Buffs.Masomode
             canBeCleared = true;
             DisplayName.AddTranslation(GameCulture.Chinese, "海洋重击");
             Description.AddTranslation(GameCulture.Chinese, "降低防御力和最大生命值");
+			DisplayName.AddTranslation(GameCulture.Russian, "Молот океана");
+            Description.AddTranslation(GameCulture.Russian, "Защитные параметры и максимальное здоровье сокрушены");
         }
 
         public override bool Autoload(ref string name, ref string texture)

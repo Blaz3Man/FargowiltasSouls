@@ -18,6 +18,8 @@ namespace FargowiltasSouls.Buffs.Masomode
             canBeCleared = true;
             DisplayName.AddTranslation(GameCulture.Chinese, "避雷针");
             Description.AddTranslation(GameCulture.Chinese, "你将会吸引雷电");
+			DisplayName.AddTranslation(GameCulture.Russian, "Молниеотвод");
+            Description.AddTranslation(GameCulture.Russian, "Вы притягиваете молнии");
         }
 
         private void SpawnLightning(Entity obj, int type, int damage)

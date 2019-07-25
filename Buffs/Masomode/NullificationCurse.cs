@@ -18,6 +18,8 @@ namespace FargowiltasSouls.Buffs.Masomode
             canBeCleared = false;
             DisplayName.AddTranslation(GameCulture.Chinese, "无效诅咒");
             Description.AddTranslation(GameCulture.Chinese, "无法躲避,并且月球领主进行循环伤害免疫!");
+			DisplayName.AddTranslation(GameCulture.Russian, "Проклятие обнуления");
+            Description.AddTranslation(GameCulture.Russian, "Вы не можете уклоняться и Лунный Лорд циклично невосприимчив к разным типам урона!");
         }
 
         public override void Update(Player player, ref int buffIndex)

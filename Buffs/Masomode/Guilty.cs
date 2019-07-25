@@ -17,6 +17,8 @@ namespace FargowiltasSouls.Buffs.Masomode
             canBeCleared = true;
             DisplayName.AddTranslation(GameCulture.Chinese, "内疚");
             Description.AddTranslation(GameCulture.Chinese, "杀害无辜动物的内疚使你的武器变得迟钝");
+			DisplayName.AddTranslation(GameCulture.Russian, "Вина");
+            Description.AddTranslation(GameCulture.Russian, "Оружие ослаблено виной за убийство невинных криттеров");
         }
 
         public override bool Autoload(ref string name, ref string texture)

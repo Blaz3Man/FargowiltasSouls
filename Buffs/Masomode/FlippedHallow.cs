@@ -16,6 +16,8 @@ namespace FargowiltasSouls.Buffs.Masomode
             Main.debuff[Type] = true;
             DisplayName.AddTranslation(GameCulture.Chinese, "翻转");
             Description.AddTranslation(GameCulture.Chinese, "你的重力颠倒了");
+			DisplayName.AddTranslation(GameCulture.Russian, "Перевёрнутый");
+            Description.AddTranslation(GameCulture.Russian, "Ваша гравитация инвертирована");
         }
 
         public override void Update(Player player, ref int buffIndex)

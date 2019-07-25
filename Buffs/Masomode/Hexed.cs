@@ -15,6 +15,9 @@ namespace FargowiltasSouls.Buffs.Masomode
             Main.debuff[Type] = true;
             DisplayName.AddTranslation(GameCulture.Chinese, "着魔");
             Description.AddTranslation(GameCulture.Chinese, "你的攻击会治愈敌人");
+			DisplayName.AddTranslation(GameCulture.Russian, "Заколдованный");
+            Description.AddTranslation(GameCulture.Russian, "Ваши атаки лечат врагов");
+		
         }
 
         public override void Update(Player player, ref int buffIndex)

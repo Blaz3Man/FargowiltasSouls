@@ -17,6 +17,8 @@ namespace FargowiltasSouls.Buffs.Masomode
             canBeCleared = true;
             DisplayName.AddTranslation(GameCulture.Chinese, "宇宙之火");
             Description.AddTranslation(GameCulture.Chinese, "来自诸天的亲自审判");
+			DisplayName.AddTranslation(GameCulture.Russian, "Огни Вселенной");
+            Description.AddTranslation(GameCulture.Russian, "Сами небеса осудили вас");
         }
 
         public override void Update(Player player, ref int buffIndex)

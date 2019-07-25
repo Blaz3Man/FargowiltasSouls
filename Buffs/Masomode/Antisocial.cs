@@ -16,6 +16,8 @@ namespace FargowiltasSouls.Buffs.Masomode
             canBeCleared = true;
             DisplayName.AddTranslation(GameCulture.Chinese, "反社交");
             Description.AddTranslation(GameCulture.Chinese, "你没有朋友");
+			DisplayName.AddTranslation(GameCulture.Russian, "Асоциальный");
+            Description.AddTranslation(GameCulture.Russian, "У тебя нет друзей (лох)");
 
         }
 

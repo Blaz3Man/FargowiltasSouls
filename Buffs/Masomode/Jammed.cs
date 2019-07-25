@@ -16,6 +16,8 @@ namespace FargowiltasSouls.Buffs.Masomode
             canBeCleared = true;
             DisplayName.AddTranslation(GameCulture.Chinese, "卡壳");
             Description.AddTranslation(GameCulture.Chinese, "你的远程武器出故障了");
+			DisplayName.AddTranslation(GameCulture.Russian, "Осечка");
+            Description.AddTranslation(GameCulture.Russian, "Ваше дальнее оружие заклинило");
         }
 
         public override void Update(Player player, ref int buffIndex)

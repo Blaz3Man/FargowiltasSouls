@@ -16,6 +16,8 @@ namespace FargowiltasSouls.Buffs.Masomode
             canBeCleared = true;
             DisplayName.AddTranslation(GameCulture.Chinese, "剪除羽翼");
             Description.AddTranslation(GameCulture.Chinese, "无法飞翔或使用火箭靴");
+			DisplayName.AddTranslation(GameCulture.Russian, "Срезанные крылья");
+            Description.AddTranslation(GameCulture.Russian, "Вы не можете летать и использовать ракетные ботинки");
         }
 
         public override void Update(Player player, ref int buffIndex)

@@ -17,6 +17,8 @@ namespace FargowiltasSouls.Buffs.Masomode
             canBeCleared = false;
             DisplayName.AddTranslation(GameCulture.Chinese, "反魔力流");
             Description.AddTranslation(GameCulture.Chinese, "魔法武器消耗生命,而不是法力");
+			DisplayName.AddTranslation(GameCulture.Russian, "Обратный поток маны");
+            Description.AddTranslation(GameCulture.Russian, "Ваше магическое оружие использует жизнь вместо маны");
         }
 
         public override void Update(Player player, ref int buffIndex)

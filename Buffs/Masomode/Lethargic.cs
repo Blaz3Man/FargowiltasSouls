@@ -16,6 +16,8 @@ namespace FargowiltasSouls.Buffs.Masomode
             canBeCleared = true;
             DisplayName.AddTranslation(GameCulture.Chinese, "昏昏欲睡");
             Description.AddTranslation(GameCulture.Chinese, "你感觉你的武器变得缓慢");
+			DisplayName.AddTranslation(GameCulture.Russian, "Вялый");
+            Description.AddTranslation(GameCulture.Russian, "Ваше оружие чувствуется медлительным");
         }
 
         public override void Update(Player player, ref int buffIndex)

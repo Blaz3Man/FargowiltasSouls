@@ -21,6 +21,8 @@ namespace FargowiltasSouls.Buffs.Masomode
             canBeCleared = false;
             DisplayName.AddTranslation(GameCulture.Chinese, "海洋印记");
             Description.AddTranslation(GameCulture.Chinese, "无法躲避,无法进行生命偷取,无法快速移动,无法逃脱");
+			DisplayName.AddTranslation(GameCulture.Russian, "Печать океана");
+            Description.AddTranslation(GameCulture.Russian, "Нет уклонения, нет вампиризма, нет суперскорости, нельзя сбежать");
         }
 
         public override bool Autoload(ref string name, ref string texture)

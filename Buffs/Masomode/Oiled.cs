@@ -17,6 +17,8 @@ namespace FargowiltasSouls.Buffs.Masomode
             canBeCleared = true;
             DisplayName.AddTranslation(GameCulture.Chinese, "浸油");
             Description.AddTranslation(GameCulture.Chinese, "着火时将受到更多伤害");
+			DisplayName.AddTranslation(GameCulture.Russian, "Промасленный");
+            Description.AddTranslation(GameCulture.Russian, "Вы получаете больше урона, когда подожжены");
         }
 
         public override bool Autoload(ref string name, ref string texture)

@@ -16,6 +16,8 @@ namespace FargowiltasSouls.Buffs.Masomode
             canBeCleared = true;
             DisplayName.AddTranslation(GameCulture.Chinese, "点金手");
             Description.AddTranslation(GameCulture.Chinese, "被攻击时掉落钱币");
+			DisplayName.AddTranslation(GameCulture.Russian, "Мидас");
+            Description.AddTranslation(GameCulture.Russian, "Вы роняете деньги при получении урона");
         }
 
         public override void Update(Player player, ref int buffIndex)

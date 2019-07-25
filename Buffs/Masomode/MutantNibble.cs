@@ -17,6 +17,8 @@ namespace FargowiltasSouls.Buffs.Masomode
             canBeCleared = true;
             DisplayName.AddTranslation(GameCulture.Chinese, "突变啃啄");
             Description.AddTranslation(GameCulture.Chinese, "无法恢复生命");
+			DisplayName.AddTranslation(GameCulture.Russian, "Укус мутанта");
+            Description.AddTranslation(GameCulture.Russian, "Вы никак не способны лечиться");
         }
 
         public override void Update(Player player, ref int buffIndex)

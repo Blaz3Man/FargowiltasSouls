@@ -15,6 +15,8 @@ namespace FargowiltasSouls.Buffs.Masomode
             Main.buffNoSave[Type] = false;
             DisplayName.AddTranslation(GameCulture.Chinese, "施虐狂");
             Description.AddTranslation(GameCulture.Chinese, "受虐模式的力量与你同在");
+			DisplayName.AddTranslation(GameCulture.Russian, "Садизм");
+            Description.AddTranslation(GameCulture.Russian, "Сила Режима Мазохиста с вами");
         }
 
         public override bool Autoload(ref string name, ref string texture)

@@ -18,6 +18,8 @@ namespace FargowiltasSouls.Buffs.Masomode
             canBeCleared = true;
             DisplayName.AddTranslation(GameCulture.Chinese, "死亡标记");
             Description.AddTranslation(GameCulture.Chinese, "别被打到");
+			DisplayName.AddTranslation(GameCulture.Russian, "Метка смерти");
+            Description.AddTranslation(GameCulture.Russian, "Просто не получайте урон");
 		}
 
 		public override void Update(Player player, ref int buffIndex)

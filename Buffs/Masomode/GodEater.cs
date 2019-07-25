@@ -16,6 +16,8 @@ namespace FargowiltasSouls.Buffs.Masomode
             canBeCleared = true;
             DisplayName.AddTranslation(GameCulture.Chinese, "噬神者");
             Description.AddTranslation(GameCulture.Chinese, "你的灵魂被神明的忿怒所诅咒");
+			DisplayName.AddTranslation(GameCulture.Russian, "Пожиратель богов");
+            Description.AddTranslation(GameCulture.Russian, "Твоя душа проклята небесной яростью");
         }
 
         public override void Update(Player player, ref int buffIndex)

@@ -15,6 +15,8 @@ namespace FargowiltasSouls.Buffs.Masomode
             canBeCleared = true;
             DisplayName.AddTranslation(GameCulture.Chinese, "月之诅咒");
             Description.AddTranslation(GameCulture.Chinese, "月亮的愤怒吞噬了你");
+			DisplayName.AddTranslation(GameCulture.Russian, "Проклятие луны");
+            Description.AddTranslation(GameCulture.Russian, "Ярость луны пожирает вас");
         }
 
         public override bool Autoload(ref string name, ref string texture)

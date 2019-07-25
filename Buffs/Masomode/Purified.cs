@@ -17,6 +17,8 @@ namespace FargowiltasSouls.Buffs.Masomode
             canBeCleared = true;
             DisplayName.AddTranslation(GameCulture.Chinese, "净化");
             Description.AddTranslation(GameCulture.Chinese, "你被净化了");
+			DisplayName.AddTranslation(GameCulture.Russian, "Очищение");
+            Description.AddTranslation(GameCulture.Russian, "Вы очищены");
         }
 
         public override void Update(Player player, ref int buffIndex)

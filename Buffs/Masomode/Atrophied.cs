@@ -16,6 +16,8 @@ namespace FargowiltasSouls.Buffs.Masomode
             canBeCleared = true;
             DisplayName.AddTranslation(GameCulture.Chinese, "萎缩");
             Description.AddTranslation(GameCulture.Chinese, "你的肌肉正在退化");
+			DisplayName.AddTranslation(GameCulture.Russian, "Атрофия");
+            Description.AddTranslation(GameCulture.Russian, "Ваши мышцы слабеют");
         }
 
         public override void Update(Player player, ref int buffIndex)

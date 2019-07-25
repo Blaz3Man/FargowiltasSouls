@@ -17,6 +17,8 @@ namespace FargowiltasSouls.Buffs.Masomode
             canBeCleared = true;
             DisplayName.AddTranslation(GameCulture.Chinese, "嗜血");
             Description.AddTranslation(GameCulture.Chinese, "极大提高刷怪速率");
+			DisplayName.AddTranslation(GameCulture.Russian, "Кровожадный");
+            Description.AddTranslation(GameCulture.Russian, "Серьёзно увеличивает частоту спавна врагов");
         }
 
         public override void Update(Player player, ref int buffIndex)
