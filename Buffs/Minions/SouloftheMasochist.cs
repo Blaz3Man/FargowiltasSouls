@@ -15,6 +15,8 @@ namespace FargowiltasSouls.Buffs.Minions
             Main.buffNoSave[Type] = true;
             DisplayName.AddTranslation(GameCulture.Chinese, "受虐之魂");
             Description.AddTranslation(GameCulture.Chinese, "受虐模式的力量与你同在");
+			DisplayName.AddTranslation(GameCulture.Russian, "Душа Мазохиста");
+            Description.AddTranslation(GameCulture.Russian, "Сила Режима Мазохиста с вами");
         }
 
         public override bool Autoload(ref string name, ref string texture)

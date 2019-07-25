@@ -14,6 +14,8 @@ namespace FargowiltasSouls.Buffs.Minions
             Main.buffNoTimeDisplay[Type] = true;
             DisplayName.AddTranslation(GameCulture.Chinese, "世界吞噬者");
             Description.AddTranslation(GameCulture.Chinese, "迷你世界吞噬者将会为你而战");
+			DisplayName.AddTranslation(GameCulture.Russian, "Пожиратель Миров");
+            Description.AddTranslation(GameCulture.Russian, "Маленький Пожиратель Миров будет сражаться за вас");
         }
 
         public override void Update(Player player, ref int buffIndex)

@@ -15,6 +15,8 @@ namespace FargowiltasSouls.Buffs.Minions
             Main.buffNoSave[Type] = true;
             DisplayName.AddTranslation(GameCulture.Chinese, "探测器");
             Description.AddTranslation(GameCulture.Chinese, "探测器将会保护你");
+			DisplayName.AddTranslation(GameCulture.Russian, "Зонды");
+            Description.AddTranslation(GameCulture.Russian, "Зонды будут защищать вас");
         }
 
         public override bool Autoload(ref string name, ref string texture)
